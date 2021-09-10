@@ -14,4 +14,4 @@ class ErrorLog(models.Model):
         return error_log
 
     def __str__(self) -> str:
-        return f'{self.app_name.upper()} at {self.datetime.strftime("%Y-%m-%d%H:%M:%S")}'
+        return f'{self.app_name.upper()} at {self.datetime.strftime("%d-%m-%Y %H:%M:%S")}'
