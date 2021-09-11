@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'logerror.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+print(os.getenv('DB_NAME') + '---------------------------------------------')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
