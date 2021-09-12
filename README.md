@@ -104,6 +104,14 @@ We use [Semantic Versioning](http://semver.org/) for versioning. For the version
 available, see the [tags on this
 repository](https://github.com/PurpleBooth/a-good-readme-template/tags). -->
 
+## Caveats
+
+You might need to create a superuser in your database to access the admin panel. You can do so by executing
+
+```
+django csu
+```
+
 ## License
 
 MIT
