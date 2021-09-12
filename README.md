@@ -37,7 +37,7 @@ Before you install the required pip packages, you need to have mysql installed, 
 brew install mysql
 ```
 
-You can install the app by executing the `'install.sh'` script if you are on Linux or Mac. On windows you have the create a python 3 virtual enviroment at `'.venv/'` in the project root folder and install the pip packages at `'requirements.txt'`.
+You can install the app by executing the `'install.sh'` script if you are on Linux or Mac. On windows you have to create a python 3 virtual enviroment at `'.venv/'` in the project root folder and install the pip packages at `'requirements.txt'`.
 
 ## Running the app
 
