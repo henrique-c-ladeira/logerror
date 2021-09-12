@@ -61,6 +61,12 @@ or if you prefer the no-shortcut command:
 python manage.py runserver
 ```
 
+Also you can generate a random secret key for the SECRET_KEY env variable, just type at the terminal
+
+```
+python manage.py shell -c 'from django.core.management import utils; print(utils.get_random_secret_key())'
+```
+
 ## Create errors API
 
 To create an error just send a `POST` request to `'{url}/log/'` i.e.:
